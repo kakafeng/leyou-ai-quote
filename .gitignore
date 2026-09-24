@@ -1,0 +1,22 @@
+# 本地测试 / 密钥类文件（绝不允许进仓库）
+*.env
+*.secret
+*.key
+*.pem
+id_rsa*
+.github/dependabot.yml
+
+# 测试目录（含主公本地 API Key 的注入页）
+test/
+tests/
+tmp/
+aq*/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 本地工作区
+.workbuddy/
+node_modules/
+*.log
+*.local
